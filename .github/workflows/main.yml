@@ -26,5 +26,5 @@ jobs:
     - name: Firebase Deploy
       run: |
         sudo npm install -g firebase-tools
-        firebase use prod --token ${{ secrets.GHUBFBASE }}
-        firebase deploy --token ${{ secrets.GHUBFBASE }}
+        firebase use prod --token ${{ secrets.ghubfbase }}
+        firebase deploy --token ${{ secrets.ghubfbase }}
